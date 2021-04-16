@@ -5,11 +5,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
       
-      </header>
-
-
+      <Card name="" link = "" img=""/>
+      <Card name="" link = "" img=""/>
+      <Card name="" link = "" img=""/>
+      <Card name="" link = "" img=""/>
+      <Card name="" link = "" img=""/>
+      <Card name="" link = "" img=""/>
       <div id = "contact-info" class="ci">
             <p>Email: vandej8@rpi.edu</p>
             <a href="https://github.com/JVteam31415">Github</a>
