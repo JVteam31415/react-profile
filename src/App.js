@@ -8,6 +8,7 @@ function App() {
       <div className = "Top-of-screen">
         <img src="./images/My face.PNG" alt="my face"/>
         <p>James VanderKam</p>
+        <p> About me: Hello, I am a Junior at RPI and a Computer Science major. I graduate in May of 2022. I live in New Jersey. </p>
       </div>
       <div className="mw">
       <Card name="Blog" link = "https://github.com/JVteam31415/TechBlog" img="./images/webpage.jpg"/>
