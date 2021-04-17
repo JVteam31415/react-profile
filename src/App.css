@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color:darkslategrey;
+  color:white;
 }
 
 .App-logo {
@@ -28,7 +30,14 @@
   color: #61dafb;
 }
 
-
+.mw{
+  flex: 2;
+  padding: 20px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+color:darkgrey
+}
 .card {
   border-style: solid;
   border-width: 1px;
@@ -48,6 +57,8 @@
 
 .card img {
   width: 100%;
+  margin: 10px auto;
+  max-width: 100px;
 }
 
 @media screen and (max-width: 400px) {
@@ -60,6 +71,12 @@
 
 .ci{
   text-align: center;
+}
+
+.Top-of-screen img{
+  display: block;
+  margin: 10px auto;
+  max-width: 100px;
 }
 
 @keyframes App-logo-spin {

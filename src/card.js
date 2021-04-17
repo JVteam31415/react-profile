@@ -11,10 +11,11 @@ class Card extends Component{
     }
 
     render(){
+        console.log(this.state.img)
     return (
-        <div class="card">
+        <div className="card">
             <p>{this.state.name}</p>
-            <a href={this.state.link}> <img src={this.state.img} alt=""/> </a>
+            <a href={this.state.link}> <img src={this.state.img} alt="img"/> </a>
                 
         </div>
     );

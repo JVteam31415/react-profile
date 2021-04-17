@@ -5,14 +5,20 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
-      <Card name="" link = "" img=""/>
-      <Card name="" link = "" img=""/>
-      <Card name="" link = "" img=""/>
-      <Card name="" link = "" img=""/>
-      <Card name="" link = "" img=""/>
-      <Card name="" link = "" img=""/>
-      <div id = "contact-info" class="ci">
+      <div className = "Top-of-screen">
+        <img src="./images/My face.PNG" alt="my face"/>
+        <p>James VanderKam</p>
+      </div>
+      <div className="mw">
+      <Card name="Blog" link = "https://github.com/JVteam31415/TechBlog" img="./images/webpage.jpg"/>
+      <Card name="E-commerce tracker" link = "https://github.com/JVteam31415/ORMEcommerce" img="./images/ShoppingWebsite.jpg"/>
+      <Card name="DayPlanner" link = "https://github.com/JVteam31415/DayPlanner" img="./images/schedule.jpg"/>
+      <Card name="Password Generator" link = "https://github.com/JVteam31415/Password-Generator" img="./images/Pword.png"/>
+      <Card name="Note Taker" link = "https://github.com/JVteam31415/notetaker" img="./images/notepad.png"/>
+      <Card name="Coinfinder" link = "https://github.com/daveyrojo/CoinFinder" img="./images/titlegraphic.png"/>
+
+      </div>
+      <div id = "contact-info" className="ci">
             <p>Email: vandej8@rpi.edu</p>
             <a href="https://github.com/JVteam31415">Github</a>
             <p></p>
